@@ -1,0 +1,192 @@
+img {
+	width: 200px;
+	height: 200px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 17px;
+	border: 3.2px solid black;
+	
+}
+body {
+	background-color:  rgb(229, 236, 122);
+	
+	
+}
+
+body img { 
+	text-align: center;
+}
+
+
+h1 {
+	color: rgb(17, 11, 65);
+}
+h2 {
+	color: rgb(17, 11, 65);
+}
+a {
+	color: black;
+}
+
+nav {
+    background-color: #6c9709;
+    padding: 20px;
+    text-align: center;
+	border-radius: 20px;     
+}
+
+nav a {
+    color: white;
+    text-decoration: none;                                                              
+
+    margin: 0 20px;     
+
+    font-size: 18px;
+}
+
+.perfil {
+  object-fit: cover;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border-color: white;
+  margin-bottom: -13px;
+  margin-right: 20px;
+}
+
+nav a:hover {
+	border-bottom: 2.5px solid white;
+
+}
+
+nav a:focus {
+	outline: 2px solid rgb(17, 16, 16);
+	outline-offset: 2px;
+}
+
+nav a:active {
+	opacity: 0.5;
+}
+
+
+
+footer {
+		color: white;
+		margin-top: 30px;
+		border-radius: 10px;
+		font-size: 15px;
+		padding: 15px;
+		background-color: #6c9709;
+
+}
+
+.contingut-principal {
+	background-color: #8ef539;
+	color: #333333;
+	border: 2px solid #87ca0b;
+	width: 500px;
+	border-radius: 10px;
+	padding: 17px;
+	margin: 30px; 
+
+}
+
+.contingut-secundari {
+	padding: 15px;
+	margin: 5px;                                                                    
+	border-radius: 20px;
+	background-color: rgb(153, 231, 9);
+ 	display: inline-block; 
+	width: 350px;  
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.contingut-terciari {
+	padding: 15px;
+	margin: 5px;                                                                    
+	border-radius: 20px;
+	background-color: rgb(153, 231, 9);
+ 	display: inline-block; 
+	width: 350px;  
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.contingut-quart {
+	padding: 15px;
+	margin: 5px;                                                                    
+	border-radius: 20px;
+	background-color: rgb(153, 231, 9);
+ 	display: inline-block; 
+	width: 350px;  
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+table, th , td {
+	
+    text-align: center;
+	padding: 12px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+th {
+	background-color: rgba(163, 243, 89, 0.692);
+	border: 0.5px solid rgb(252, 250, 250);
+	border-radius: 5px;
+}
+
+td {
+	background-color: rgba(114, 201, 103, 0.918);
+	border: 0.5px solid rgb(252, 250, 250);
+	border-radius: 5px;
+	
+	
+}
+
+.angles {
+	background-color: #71cde9;
+}
+
+.html {
+	background-color: blueviolet;
+}
+
+.muntatge {
+	background-color: gold;
+}
+.xarxes {
+	background-color: brown;
+}
+.ofi {
+	background-color: rgb(255, 7, 160);
+}
+.tuto {
+	background-color: wheat;
+}
+
+.ipo {
+	background-color: orangered;
+}
+.digi {
+	background-color: blue;
+}
+.monolloc {
+	background-color: rgb(178, 230, 178);
+}
+.sostenibilitat {
+	background-color: rgb(224, 4, 4);
+}
+
+.pati {
+	background-color: peru;
+}
+.casa {
+	background-color: whitesmoke;
+}
+
+.festiu-nacional {
+	background-color: lightcoral;
+}
+.festa {
+	background-color: lightgreen;
+}
+.normal {
+	background-color: lightblue;
+}
