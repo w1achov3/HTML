@@ -185,8 +185,20 @@ td {
 	background-color: lightcoral;
 }
 .festa {
-	background-color: lightgreen;
+	background-color: rgb(231, 235, 11);
 }
 .normal {
 	background-color: lightblue;
+}
+.festiu-autonomic {
+	background-color: chocolate;
+}
+.dies-setmana {
+	background-color: lightgreen;
+}
+.novembre {
+	background-color: greenyellow;
+}
+.desembre {
+	background-color: greenyellow;
 }
