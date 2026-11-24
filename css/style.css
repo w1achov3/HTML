@@ -204,89 +204,113 @@ td {
 }
 
 .formulari {
-	padding: 5px;
-	margin-left:850px;
-
+    background-color: rgb(153, 231, 9);
+    border: 2px solid #ebe2e2;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .label-nom {
-	display: block;
-	padding: 7px;
-	background-color: rgb(83, 163, 83);
-	width: 97px;
-	border-radius: 5px;
+    display: block;
+    padding: 7px;
+    background-color: #6c9709;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 14px;
 }
+
 .label-gmail {
-	margin-top: 10px;
-	padding: 7px;
-	display: block;
-	background-color: rgb(83, 163, 83);
-	width: 112px;
-	border-radius: 5px;
-	
+    margin-top: 15px;
+    padding: 7px;
+    display: block;
+    background-color: #6c9709;
+    color: white;
+    width: 135px;
+    border-radius: 5px;
+    font-size: 14px;
 }
-.label-missatge {
-	margin-top: 10px;
-	display: block;
-	padding: 7px;
-	background-color: rgb(83, 163, 83);
-	width: 60px;
-	border-radius: 5px;
 
-	
-}
-.input-assumpte {
-	margin-top: 10px;
-	display: block;
-	padding: 5px;
-	margin-bottom: 10px;
-	background-color: rgba(209, 233, 105, 0.938);
-	border-color: black;
-	width: 200px;
-	text-align: center;
-	align-items: center;
-	height: 30px;
-	border-radius: 5px;
-	
-}
 .label-assumpte {
-	margin-top: 10px;
-	display: block;
-	background-color: rgb(83, 163, 83);
-	border-radius: 5px;
-	width: 65px;
-	padding: 7px;
-}
-.input-nom {
-	margin-top: 10px;
-	background-color: rgba(209, 233, 105, 0.938);
-	width: 200px;
-	height: 30px;
-	border-radius: 5px;
-}
-.input-mail {
-	margin-top: 10px;
-	background-color: rgba(209, 233, 105, 0.938);
-	width: 200px;
-	height: 30px;
-	border-radius: 5px;
-}
-.input-missatge {
-	margin-top: 10px;
-	background-color: rgba(209, 233, 105, 0.938);
-	width: 200px;
-	height: 40px;
-	align-content: center;
-	text-align: center;
-	border-color: black;
-	border-radius: 5px;
-	display: block;
-	height: 72px;
-}
-.boto {
-	border-radius: 3px;
-	padding: 5px;
-	margin-top:20px;
-	border-color: black;
+    margin-top: 15px;
+    display: block;
+    background-color: #6c9709;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    padding: 7px;
+    font-size: 14px;
 }
 
+.label-missatge {
+    margin-top: 15px;
+    display: block;
+    padding: 7px;
+    background-color: #6c9709;
+    color: white;
+    width: 75px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-nom {
+    margin-top: 8px;
+    background-color: rgb(238, 245, 190);
+    width: 280px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid #38d332;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.input-mail {
+    margin-top: 8px;
+    background-color: rgb(238, 245, 190);
+    width: 280px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid #38d332;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.input-assumpte {
+    margin-top: 8px;
+    display: block;
+    padding: 5px;
+    background-color: rgb(238, 245, 190);
+    border: 2px solid #38d332;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+	text-align: center;
+}
+
+.input-missatge {
+    margin-top: 8px;
+    background-color: rgb(238, 245, 190);
+    width: 280px;
+    height: 80px;
+    padding: 5px;
+    border: 2px solid #38d332;
+    border-radius: 5px;
+    display: block;
+	text-align: center;
+}
+
+.boto {
+    padding: 10px;
+    margin-top: 20px;
+    width: 293px;
+    border: 2px solid #ebe2e2;
+    background-color: #6c9709;
+    color: black;
+    font-size: 16px;
+}
+
+.boto:hover {
+    background-color: #22e44c;
+}
